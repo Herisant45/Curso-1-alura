@@ -3,22 +3,22 @@
     padding: 0;
 }
 .inicio-pagina{
-    background-color: rgb(0, 55, 156);
-    color: rgb(0, 0, 0);
+    background-color: #001336;
+    color: #47C5FB;
     display: flex;
-    justify-content: space-between;
+ justify-content: space-around;
+    align-items: center;
    
 }
 
 .imagem-logo{
-width: 15%;
-margin: 0 70px;
+width: 13%;
 }
 
 .itens-lateral {
     display: inline-block;
     margin: 0 11px; 
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .buscar{
