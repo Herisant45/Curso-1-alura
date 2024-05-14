@@ -6,7 +6,7 @@
     background-color: #001336;
     color: #47C5FB;
     display: flex;
-    height: 80px;
+    height: 100px;
  justify-content: space-around;
     align-items: center;
    
@@ -14,7 +14,7 @@
 
 .imagem-logo{
 width: 10%;
-height: 80px;
+height: 100px;
 object-fit: cover;
 }
 
@@ -22,26 +22,48 @@ object-fit: cover;
     display: inline-block;
     margin: 0 11px; 
     padding: 20px 0;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .buscar{
     display: inline-block;
     margin: 0 11px;
     padding: 20px 0; 
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .pagina{
+    background-image: linear-gradient(#001336, #47C5FB);
+    font-family: "Ubuntu", sans-serif;
     color: #001336;
 }
 
 .titulo1{
-    font-size: xx-large;
-    color: black;
-    font-family: cursive;
+    font-size: x-large;
+    color: white;
     display: flex;
     align-items: center;
+}
+.textos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Imagem{
+    width: 30%;
+}
+.paragrafos{
+    width: 30%;
+    padding: 80px;
+}
+.logo{
+    width: 9%;
+}
+.linguas-div{
+    text-align: center;
+    padding: 30px 0;
+
+}
+.titulo2{
+    color: white;
+    font-size: x-large;
 }
