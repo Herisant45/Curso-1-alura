@@ -56,14 +56,23 @@ object-fit: cover;
     padding: 80px;
 }
 .logo{
-    width: 9%;
+    width: 70%;
 }
-.linguas-div{
-    text-align: center;
-    padding: 30px 0;
 
-}
 .titulo2{
     color: white;
     font-size: x-large;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.linguas-div{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    padding: 50px 0;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    color: white;
 }
